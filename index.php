@@ -1,6 +1,6 @@
 <?php
 /* Required settings     */
-$CLOAKING['WHITE_PAGE'] = 'www.fiverr.com';//PHP/HTML file or URL used for bots
+$CLOAKING['WHITE_PAGE'] = 'https:///www.fiverr.com';//PHP/HTML file or URL used for bots
 $CLOAKING['OFFER_PAGE'] = 'index.html';//PHP/HTML file or URL offer used for real users
 $CLOAKING['DEBUG_MODE'] = 'on';// replace "on" with "off" to switch from debug to production mode
 $CLOAKING['STEALTH'] = 'off';// replace "on" with "off" to hide stat page
@@ -41,16 +41,16 @@ $CLOAKING['NO_REF'] = false;
 $CLOAKING['WHITE_REF'] = '';
 
 /* change 'false' to 'true' to block Apple devices (iOS, Mac) */
-$CLOAKING['BLOCK_APPLE'] = false;
+$CLOAKING['BLOCK_APPLE'] = true;
 
 /* change 'false' to 'true' to block Android devices */
-$CLOAKING['BLOCK_ANDROID'] = false;
+$CLOAKING['BLOCK_ANDROID'] = true;
 
 /* change 'false' to 'true' to block Windows devices */
 $CLOAKING['BLOCK_WIN'] = false;
 
 /* change 'false' to 'true' to block mobile devices */
-$CLOAKING['BLOCK_MOBILE'] = false;
+$CLOAKING['BLOCK_MOBILE'] = true;
 
 /* change 'false' to 'true' to block desctop devices */
 $CLOAKING['BLOCK_DESCTOP'] = false;
